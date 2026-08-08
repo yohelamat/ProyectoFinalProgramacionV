@@ -11,7 +11,7 @@ variable "environment" {
 }
 
 variable "project_name" {
-  description = "workshops-versionfinal"
+  description = "workshops-ultimaversion"
   type        = string
-  default     = "workshops-versionfinal"  # 
-}
+  default     = "workshops-ultimaversion"  # 
+} 
