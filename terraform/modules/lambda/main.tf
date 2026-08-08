@@ -1,6 +1,3 @@
-variable "project_name" {}
-variable "environment" {}
-
 data "archive_file" "lambda_zip" {
   type        = "zip"
   source_file = "../../../backend/handlers/api.py"

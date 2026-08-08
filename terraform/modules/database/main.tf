@@ -1,6 +1,3 @@
-variable "project_name" {}
-variable "environment" {}
-
 resource "aws_dynamodb_table" "main_table" {
   name           = "${var.project_name}-${var.environment}-db"
   billing_mode   = "PAY_PER_REQUEST" 
