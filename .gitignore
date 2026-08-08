@@ -1,0 +1,11 @@
+# Ignorar binarios y plugins de Terraform
+**/.terraform/*
+
+# Ignorar estados locales de la infraestructura (por seguridad)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Archivos temporales
+*.swp
+.DS_Store
